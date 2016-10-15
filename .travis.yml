@@ -9,4 +9,4 @@ install: "pip install"
 
   
 # command to run test suite
-script:  ./test_rpn.py 
+script:  test_rpn.py 

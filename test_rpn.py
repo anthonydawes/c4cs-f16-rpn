@@ -1,14 +1,8 @@
-
-#adawes hw5
-#original code: ppannuto
-
-
+#!/
+usr/bin/env python3
 import unittest
 
 import rpn
-
-# make test cases
-
 
 class TestBasics(unittest.TestCase):
 	def test_add(self):

@@ -2,5 +2,5 @@ language: python
 python:
   - "3.5"
   
-# command to run tests
-script: test_rpn.py
+# command to run test suite
+script:  ./test_rpn.py 

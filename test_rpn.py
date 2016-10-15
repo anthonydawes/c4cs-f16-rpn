@@ -20,3 +20,6 @@ class TestBasics(unittest.TestCase):
 	def test_badstring(self):
 		with self.assertRaises(TypeError):
 			rpn.calculate("1 2 3 +")
+	def test_exponent(self):
+		result = rpn.calculate("1 1 ^")
+		self.assertEqual(1, result)
